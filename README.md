@@ -15,7 +15,8 @@ Now in the SBCL context:
 * (quicklisp-quickstart:install)
 * (ql:quickload "quicklisp-slime-helper")
 
-Quicklisp in Emacs einbinden:
+Include Quicklisp in  Emacs:
 * echo "(load (expand-file-name "~/quicklisp/slime-helper.el"))" > ~/.emacs
+
 Replace "sbcl" with the path to your implementation
 * echo "(setq inferior-lisp-program "/usr/bin/sbcl")" >> ~/.emcas
